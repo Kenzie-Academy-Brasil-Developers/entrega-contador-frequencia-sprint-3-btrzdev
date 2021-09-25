@@ -75,6 +75,15 @@ if (letterCounts[currentLetter] === undefined) {
 }
 ```
 
+const objTeste = {};
+
+currentLetter = "a";
+if objTeste[currentLetter] === undefined  {
+   objtTeste = {"a": 1};
+} else {
+   objtTeste = {"a": 2};
+}
+
 Para saber quantas vezes cada letra apareceu, você pode usar um loop `for..in` em letterCounts.
 
 ```js
